@@ -2,5 +2,5 @@
 #include <windows.h>
 
 __declspec(dllexport) void HelloWorld() {
-    printf("Ola, mundo !\n");
+    printf("Ola, DLL !\n");
 }
