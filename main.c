@@ -4,7 +4,7 @@
 typedef void (*HelloWorldFunction)();
 
 int main() {
-    HMODULE dllHandle = LoadLibrary("hello.dll");
+    HMODULE dllHandle = LoadLibrary("hello_c.dll");
 
     if (dllHandle == NULL) {
         printf("Error when load the DLL: %d\n");
